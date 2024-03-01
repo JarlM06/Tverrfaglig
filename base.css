@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+}
+
+#gameBoardRow {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#gameBoardCol {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 624px;
+}
+
+#guessDiv {
+    margin: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+}
+
+#bossInput {
+    padding: 1vh;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#guessButton {
+    height: 100%;
+}
+
+#attributeHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.attributeText {
+    width: 6rem;
+    height: auto;
+    margin: 2px;
+    text-align: center;
+}
+
+.attribute-row {
+    display: flex;
+    overflow: auto;
+}
+
+.attribute-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.attribute-text {
+    width: 100%;
+    margin: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
