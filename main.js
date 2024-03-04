@@ -15,7 +15,7 @@ $.ajax({
 
 
         const guessInput = $('#guessInput');
-        BOSSES.forEach(function(boss) {
+        BOSSES.forEach(function(boss) { 
             const option = $('<option>').attr('value', boss.name);
             guessInput.append(option);
         });
@@ -128,10 +128,6 @@ $.ajax({
         function createBoxes(info, row) {
             let bossGuess = info.boss;
             delete info.boss;
-
-            let box = document.createElement("div");
-            box.className = "attribute-box";
-            row.appendChild(box);
 
             for(const attribute in info) {
                 let box = document.createElement("div");
