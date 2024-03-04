@@ -10,6 +10,26 @@
     <title>Wordle Game</title>
 </head>
 <body>
-    <h1>Insert Boss</h1>
+    <div id="header">
+        <div id="innerHeader">
+            <a href="index.html">🎮</a>
+            <h1>Insert Boss</h1>
+            <a href="manual.html">📄</a>
+        </div>
+    </div>
+    
+    <div id="form-container">
+        <form action="insertBosser.php" method="post" id="insertBosser">
+            <label for="bossName">Name: </label> <input type="text" name="bossName" class="inputBoss"/><br><br>
+            <label for="bossArea">Area: </label> <input type="text" name="bossArea" class="inputBoss"/><br><br>
+            <label for="bossAreaOpt">Area 2: </label> <input type="text" name="bossAreaOpt" placeholder="Optional" class="inputBoss"/><br><br>
+            <label for="bossLocation">Location: </label> <input type="text" name="bossLocation" class="inputBoss"/><br><br>
+            <label for="bossLocationOpt">Location 2: </label> <input type="text" name="bossLocationOpt" placeholder="Optional" class="inputBoss"/><br><br>
+            <label for="bossPhases">Phases: </label> <input type="number" name="bossPhases" class="inputBoss"/><br><br>
+            <label for="bossSpecies">Species: </label> <input type="text" name="bossSpecies" class="inputBoss"/><br><br>
+            <label for="bossSpeciesOpt">Species 2: </label> <input type="text" name="bossSpeciesOpt" placeholder="Optional" class="inputBoss"/><br><br>
+            <input type="submit"/>
+        </form>
+    </div>
 </body>
 </html>
