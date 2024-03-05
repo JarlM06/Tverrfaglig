@@ -1,24 +1,25 @@
 <?php
-$servername = "172.20.128.60"; // Change this to your MySQL server's hostname or IP address if it's hosted on a different server
+// Informasjon om MySQL server og login angis
+$servername = "172.20.128.60";
 $username = "jm";
 $password = "Akademiet99";
 $dbname = "wordle_project";
 
-// Create connection
+// Lager kobling til MySQL
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
+// Sjekker koblingen
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Query to retrieve data from your table
+// Henter data fra MySQL tabelet
 $sql = "SELECT * FROM Bosser";
 $result = $conn->query($sql);
 
 $data = array();
 if ($result->num_rows > 0) {
-    // Fetch data from each row and format it into a JavaScript array of objects
+    // Henter data fra hver rad og formaterer det til et JavaScript array med objekter
     while($row = $result->fetch_assoc()) {
         $data[] = array(
             'name' => $row['name'],
@@ -32,12 +33,12 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-// Close the database connection
+// Steng koblingen
 $conn->close();
 
-// Set the response header to indicate JSON content
+// Sett header for å indikere JSON-innhold
 header('Content-Type: application/json');
 
-// Output the data as JSON
+// Output data som JSON
 echo json_encode($data);
 ?>

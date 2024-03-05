@@ -1,6 +1,9 @@
+// Angir variablene som inneholder alle bossene og hvilke bosser man allerede har gjettet
 var BOSSES;
 var currentGuesses = [];
 
+// En ajax som snakker med getData.php
+// Nesten all koden er skrevet innenfor her
 $.ajax({
     url: 'getData.php',
     type: 'GET',
@@ -8,18 +11,20 @@ $.ajax({
     success: function(data) {
         BOSSES = data;
 
+        // Velger en tilfeldig boss som skal være det riktige svaret
         let rightBoss = BOSSES[Math.floor(Math.random() * BOSSES.length)];
         console.log(rightBoss);
 
         $(".attributeText").hide();
 
-
+        // Legger inn alle valgene spilleren kan velge mellom når de skriver inn et input
         const guessInput = $('#guessInput');
         BOSSES.forEach(function(boss) { 
             const option = $('<option>').attr('value', boss.name);
             guessInput.append(option);
         });
 
+        // Sjekker om inputet til spilleren er gyldig, og enabler/disabler knappen avhengig av det
         $('#bossInput').on('input', function() {
             const inputValue = $(this).val();
             const bossNames = BOSSES.map(boss => boss.name);
@@ -31,27 +36,8 @@ $.ajax({
             }
         });
 
-
-        $('#bossInput').on('input', function() {
-            const inputValue = $(this).val();
-            const options = $('#guessInput').children();
-
-            let optionFound = false;
-            options.each(function() {
-                if ($(this).val() === inputValue) {
-                    optionFound = true;
-                    return false;
-                }
-            })
-
-            if (optionFound) {
-                $('#guessButton').prop('disabled', false);
-            } else {
-                $('#guessButton').prop('disabled', true);
-            }
-        })
-
-
+        // Kjører når spilleren trykker 'submit'
+        // Styrer resten av funksjonene og rekkefølgen ting skjer
         $("#guessButton").click(function() {    
             $(".attributeText").show();
             
@@ -67,7 +53,8 @@ $.ajax({
             $(this).prop('disabled', true);
         });
 
-
+        // Sjekker om hver verdi til bossen spilleren gjettet er riktig, delvis riktig eller feil
+        // Returner denne informasjonen
         function checkBoss() {
             let bossGuess = BOSSES.find(item => item.name === $("#bossInput").val());
             currentGuesses.push(bossGuess);
@@ -124,16 +111,18 @@ $.ajax({
             }
         }
 
-
+        // Lager boksene som sier hvor riktig spilleren var på gjettet sitt
         function createBoxes(info, row) {
             let bossGuess = info.boss;
             delete info.boss;
 
+            // Går igjennom hver verdi og lager en boks med klasse
             for(const attribute in info) {
                 let box = document.createElement("div");
                 box.className = "attribute-box";
                 row.appendChild(box);
 
+                // Legger til tekst og klasser
                 if(attribute === "name" || attribute === "phases") {
                     let text = document.createElement("p");
                     text.innerHTML = bossGuess[attribute];
@@ -148,6 +137,7 @@ $.ajax({
                     }
                 }
 
+                // Angir farge etter hvor korrekt gjettet var
                 if(info[attribute] === "correct") {
                     box.style.backgroundColor = "green";
                 } else if(info[attribute] === "partial") {
@@ -158,15 +148,17 @@ $.ajax({
             }
         }
 
-
+        // Sjekker om to lister inneholder en lik verdi
         function containsCommonValue(array1, array2) {
             return array1.some(value => array2.includes(value));
         }
 
+        // Sjekker om to lister er like
         function arraysMatch(arr1, arr2) {
             return JSON.stringify(arr1) === JSON.stringify(arr2);
         }
     },
+    
     error: function(xhr, status, error) {
         console.error('Error retrieving data:', error);
     }
