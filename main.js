@@ -1,6 +1,5 @@
 // Angir variablene som inneholder alle bossene og hvilke bosser man allerede har gjettet
 var BOSSES;
-var currentGuesses = [];
 
 // En ajax som snakker med getData.php
 // Nesten all koden er skrevet innenfor her
@@ -57,7 +56,6 @@ $.ajax({
         // Returner denne informasjonen
         function checkBoss() {
             let bossGuess = BOSSES.find(item => item.name === $("#bossInput").val());
-            currentGuesses.push(bossGuess);
             
             let name;
             let area;
@@ -146,6 +144,8 @@ $.ajax({
                     box.style.backgroundColor = "red";
                 }
             }
+
+            checkWin(bossGuess);
         }
 
         // Sjekker om to lister inneholder en lik verdi
@@ -157,6 +157,24 @@ $.ajax({
         function arraysMatch(arr1, arr2) {
             return JSON.stringify(arr1) === JSON.stringify(arr2);
         }
+
+        // Sjekker om spilleren har vunnet, og gjør alert boksen synlig
+        function checkWin(bossGuess) {
+            if (bossGuess === rightBoss) {
+                document.getElementById('alertBox').style.display = 'block';
+                document.getElementById('correctGuess').innerHTML = rightBoss.name;
+            }
+        }
+
+        // Fjerner alert boksen
+        $(".close-btn").click(function() {
+            document.getElementById('alertBox').style.display = 'none';
+        });
+
+        // Reloader siden
+        $("#reloadPage").click(function() {
+            location.reload();
+        });
     },
     
     error: function(xhr, status, error) {
