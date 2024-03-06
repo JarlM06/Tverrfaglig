@@ -143,3 +143,32 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+.textContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.innerTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.text {
+    color: black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.exImg {
+    max-width: 7rem;
+    max-height: 7rem;
+    border-radius: 3px;
+    margin-right: 10px;
+}
