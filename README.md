@@ -36,7 +36,29 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 8. Hva synes du om utseende/grafikken?
 9. Er det noe som kunne forbedres?
 
-### Bruker 1
+### Bruker 1 - Gutt 17 år
+1. Programmet byttter side til "Manual" eller "Insert Boss".
+2. Ja, trykker på dokument ikonet øverst.
+3. Jeg tror jeg skjønner hvordan man spiller.
+4. Jeg klarte å bruke spillet, men jeg har ikke spilt Elden Ring så jeg vant ikke.
+5. Det var enkelt å legge til en ny boss som ble vist i listen.
+<br><br>
+6. Selve programmet var ganske intuitivt, men kanskje ikke å bytte mellom sidene.
+7. Angående selve spillet ga den god nok instruks, men det sto ikke noe om hvordan man la til nye bosser.
+8. Utseende var litt over alt, hver side hadde forskjellig stil, med unntak av bakgrunnen.
+9. Som sagt så kunne designet og stylingen vært forbedret litt, og det kunne stått noe om å legge til bosser i manualen.
+
+### Bruker 2 - Gutt 17 år
+1. Trykke på et av ikonene fører deg til de tilsvarende sidene i spillet.
+2. Ja, jeg fant brukermanualen under "Manual" - fanen.
+3. Manualen forklarer spillet ganske godt, selv om jeg måtte lese gjennom den en gang til for å forstå det fullstendig.
+4. Ja, jeg spilte en runde og fant det ganske underholdende, og jeg har faktisk spilt Elden Ring.
+5. Ja, jeg la til en ny 'boss' som dukket opp i listen.
+<br><br>
+7. Programmet var relativt intuitivt å bruke, men det var litt tungvint å navigere mellom sidene.
+8. Manualen ga en god oversikt over spillets mekanismer, men det var enkelte deler som kunne vært mer detaljerte.
+9. Grafikken var delvis passende, men den varierte mellom ulike stiler.
+10. Noen deler av grensesnittet kunne vært mer sammenhengende, og manualen kan forbedres.
 
 
 ## Kilder
