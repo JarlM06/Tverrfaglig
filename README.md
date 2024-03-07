@@ -21,3 +21,25 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 ``insertBosser.php`` → PHP for å sette inn en ny verdi i databasen.
 
 ``Bilder`` → Mappe som inneholder alle bilder som blir brukt i programmet.
+<br><br>
+## Brukertesting
+
+### Spørsmål
+1. Hva skjer hvis du trykker på et av ikonene øverst?
+2. Klarer du å finne deg fram til brukermanualen?
+3. Skjønner du hvordan spillet fungerer ut fra manualen?
+4. Klarer du å spille en runde?
+5. Hva skjer når du legger til en ny 'boss'? Dukker den opp i listen?
+<br><br>
+6. Var programmet intuitivt å bruke?
+7. Ga manualen god nok instruks og hjelp?
+8. Hva synes du om utseende/grafikken?
+9. Er det noe som kunne forbedres?
+
+### Bruker 1
+
+
+## Kilder
+PHP, CSS og MySQL - https://www.w3schools.com/
+
+GitHub in Ubuntu - https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
