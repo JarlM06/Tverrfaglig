@@ -72,6 +72,22 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 9. Grafikken var enkel og passende for et tekstbasert spill.
 10. Jeg synes programmet generelt var godt laget, men det kunne ha noen forbedringer i grensesnittet og ytterligere forklaringer i manualen.
 
+<b>*Noen endringer ble implentert her - Se implementeringsseksjon</b>
+
+### Bruker 4 - Kvinne 48 år
+1. Ved å trykke på et av ikonene øverst, blir du omdirigert til forskjellige deler av programmet.
+2. Fant brukermanualen enkelt ved å klikke på dokumentikonet.
+3. Manualen ga en klar forklaring på hvordan spillet fungerer, og det var lett å forstå.
+4. Jeg klarte å spille en runde uten problemer *NB! bruker hadde ikke spilt Elden Ring.*
+5. Etter å ha lagt til en ny 'boss', dukket den opp i listen som forventet.
+6. Programmet var relativt intuitivt å bruke, men det tok litt tid å venne seg til navigasjonen mellom sidene.
+<br><br>
+8. Jeg fant manualen ganske informativ.
+9. Grafikken passet ikke alle steder.
+10. Det var noen områder som kunne forbedres, for eksempel utseende. Generelt sett var det en positiv opplevelse å bruke programmet.
+
+## Implementeringsseksjon
+
 
 ## Kilder
 PHP, CSS og MySQL - https://www.w3schools.com/
