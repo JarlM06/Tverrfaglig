@@ -60,6 +60,18 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 9. Grafikken var delvis passende, men den varierte mellom ulike stiler.
 10. Noen deler av grensesnittet kunne vært mer sammenhengende, og manualen kan forbedres.
 
+### Bruker 3 - Mann 51 år
+1. Når du trykker på et av ikonene, tar det deg til de forskjellige delene av spillet, som Manual eller Insert Boss.
+2. Jeg fant brukermanualen.
+3. Manualen ga en god forståelse av hvordan spillet fungerer.
+4. Jeg prøvde spillet, men skjønte ikke så mye.
+5. Etter å ha lagt til en ny 'boss', dukket den umiddelbart opp i listen.
+<br><br>
+7. Det var litt vanskelig å finne seg fram uten at oppgaven sa hvordan.
+8. Manualen var ganske informativ, men manglet noen punkter som å legge til bosser.
+9. Grafikken var enkel og passende for et tekstbasert spill.
+10. Jeg synes programmet generelt var godt laget, men det kunne ha noen forbedringer i grensesnittet og ytterligere forklaringer i manualen.
+
 
 ## Kilder
 PHP, CSS og MySQL - https://www.w3schools.com/
