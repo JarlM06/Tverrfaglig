@@ -1,7 +1,10 @@
 # Tverrfaglig Prosjekt - Jarl Mathias
 
 ### Om prosjektet
-Hovedinnholdet i prosjektet er et spill inspirert av 'Wordle', men det er en tvist. Wordle er et spill hvor man prøver å gjette et ord, og så får man tilbakemelding på om bokstavene var riktig, feil plassert, feil ol. I mitt program så skal man heller gjette en 'boss' fra spillet Elden Ring. Dette prosjektet er noe jeg startet på i YFF tidligere i år, og ville bygge ut på nå.
+
+<b>IP: 172.20.128.64</b>
+
+Hovedinnholdet i prosjektet er et spill inspirert av 'Wordle', men det er en tvist. Wordle er et spill hvor man prøver å gjette et ord, og så får man tilbakemelding på om bokstavene var riktig, feil plassert, feil ol. I mitt program så skal man heller gjette en 'boss' fra spillet Elden Ring. Dette prosjektet er noe jeg startet på i YFF tidligere i år, og ville bygge ut på nå. *NB! Programmet inneholder ikke hver eneste boss fra spillet, siden det finnes over 200 bosser, og dette er bare en tidskrevende prossess å legge til*
 
 Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL database og PHP for å snakke med databasen. Jeg har satt opp en server for MySQL databasen, og en Ubuntu server hvor programmet ligger.
 
@@ -87,9 +90,15 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 10. Det var noen områder som kunne forbedres, for eksempel utseende. Generelt sett var det en positiv opplevelse å bruke programmet.
 
 ## Implementeringsseksjon
-
+<b>*Implementert før Bruker 4 brukertestet</b>
+* Lagde en mer utfyllende brukermanual, som bl.a. inneholder å legge til bosser og hvordan man navigerer.
+* Gjorde design/stilen mer gjengående mellom sidene (dette kan fortsatt forbedres mer).
 
 ## Kilder
 PHP, CSS og MySQL - https://www.w3schools.com/
 
 GitHub in Ubuntu - https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
+
+Fextralife Elden Ring Wiki - https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
+
+Fandom Elden Ring WIki - https://eldenring.fandom.com/wiki/Elden_Ring_Wiki
