@@ -166,6 +166,14 @@ input[type="submit"]:hover {
     align-items: center;
 }
 
+.textHeader {
+    color: black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
 .exImg {
     max-width: 7rem;
     max-height: 7rem;
