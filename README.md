@@ -1,6 +1,9 @@
 # Tverrfaglig Prosjekt - Jarl Mathias
 
 ### Om prosjektet
+
+<b>IP: 172.20.128.64</b>
+
 Hovedinnholdet i prosjektet er et spill inspirert av 'Wordle', men det er en tvist. Wordle er et spill hvor man prøver å gjette et ord, og så får man tilbakemelding på om bokstavene var riktig, feil plassert, feil ol. I mitt program så skal man heller gjette en 'boss' fra spillet Elden Ring. Dette prosjektet er noe jeg startet på i YFF tidligere i år, og ville bygge ut på nå.
 
 Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL database og PHP for å snakke med databasen. Jeg har satt opp en server for MySQL databasen, og en Ubuntu server hvor programmet ligger.
@@ -95,3 +98,7 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 PHP, CSS og MySQL - https://www.w3schools.com/
 
 GitHub in Ubuntu - https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/
+
+Fextralife Elden Ring Wiki - https://eldenring.wiki.fextralife.com/Elden+Ring+Wiki
+
+Fandom Elden Ring WIki - https://eldenring.fandom.com/wiki/Elden_Ring_Wiki
