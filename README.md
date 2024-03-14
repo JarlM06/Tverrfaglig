@@ -40,6 +40,11 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 9. Er det noe som kunne forbedres?
 
 ### Bruker 1 - Gutt 17 år
+
+<b>IT erfaring: </b> Er erfaren når det kommer til bruk av elektronikk.
+
+<b>Bakgrunn om spillet: </b> Bruker har ikke spilt Elden Ring før.
+
 1. Programmet byttter side til "Manual" eller "Insert Boss".
 2. Ja, trykker på dokument ikonet øverst.
 3. Jeg tror jeg skjønner hvordan man spiller.
@@ -52,10 +57,15 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 9. Som sagt så kunne designet og stylingen vært forbedret litt, og det kunne stått noe om å legge til bosser i manualen.
 
 ### Bruker 2 - Gutt 17 år
+
+<b>IT erfaring: </b> Relativt komfortabel når det kommer til spill ol.
+
+<b>Bakgrunn om spillet: </b> Bruker har spilt Elden Ring før.
+
 1. Trykke på et av ikonene fører deg til de tilsvarende sidene i spillet.
 2. Ja, jeg fant brukermanualen under "Manual" - fanen.
 3. Manualen forklarer spillet ganske godt, selv om jeg måtte lese gjennom den en gang til for å forstå det fullstendig.
-4. Ja, jeg spilte en runde og fant det ganske underholdende, og jeg har faktisk spilt Elden Ring.
+4. Ja, jeg spilte en runde og fant det ganske underholdende.
 5. Ja, jeg la til en ny 'boss' som dukket opp i listen.
 <br><br>
 7. Programmet var relativt intuitivt å bruke, men det var litt tungvint å navigere mellom sidene.
@@ -64,6 +74,11 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 10. Noen deler av grensesnittet kunne vært mer sammenhengende, og manualen kan forbedres.
 
 ### Bruker 3 - Mann 51 år
+
+<b>IT erfaring: </b> Over gjennomsnittlig god for sin aldersgruppe.
+
+<b>Bakgrunn om spillet: </b> Bruker har ikke spilt Elden Ring før.
+
 1. Når du trykker på et av ikonene, tar det deg til de forskjellige delene av spillet, som Manual eller Insert Boss.
 2. Jeg fant brukermanualen.
 3. Manualen ga en god forståelse av hvordan spillet fungerer.
@@ -78,10 +93,15 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 <b>*Noen endringer ble implentert her - Se implementeringsseksjon</b>
 
 ### Bruker 4 - Kvinne 48 år
+
+<b>IT erfaring: </b> Gjennomsnittlig flink når det kommer til elektronikk, men har lite erfaring med spill.
+
+<b>Bakgrunn om spillet: </b> Bruker har ikke spilt Elden Ring før.
+
 1. Ved å trykke på et av ikonene øverst, blir du omdirigert til forskjellige deler av programmet.
 2. Fant brukermanualen enkelt ved å klikke på dokumentikonet.
 3. Manualen ga en klar forklaring på hvordan spillet fungerer, og det var lett å forstå.
-4. Jeg klarte å spille en runde uten problemer *NB! bruker hadde ikke spilt Elden Ring.*
+4. Jeg klarte å spille en runde uten problemer. *NB! Bruker vant ikke siden hun ikke hadde spilt Elden Ring*
 5. Etter å ha lagt til en ny 'boss', dukket den opp i listen som forventet.
 6. Programmet var relativt intuitivt å bruke, men det tok litt tid å venne seg til navigasjonen mellom sidene.
 <br><br>
