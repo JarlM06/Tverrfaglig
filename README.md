@@ -24,6 +24,21 @@ Programmet blir hovedsakelig kodet it HTML/CSS/JavaScript, men bruker en MySQL d
 ``insertBosser.php`` → PHP for å sette inn en ny verdi i databasen.
 
 ``Bilder`` → Mappe som inneholder alle bilder som blir brukt i programmet.
+
+### Spesifikasjoner
+
+Hvilke spesifikasjoner du burde ha på serveren din for å kjøre programmet.
+
+* En server som har Apache2 installert
+* En server som har MariaDB eller MySQL installert
+* Last ned PHP på Apache serveren
+* Hvis du vil kan du laste ned git
+* Husk å endre permissions og starting directory etter hvordan du vil ha det
+  * Du kan endre DocumentRoot i /etc/apache2/sites-available/000-default.conf for å endre startside
+* Sett opp en database og table på SQL serveren
+* Endre PHP filene med brukernavn, passord, adresse, databasenavn og tablenavn etter hva du har satt det til
+
+![Server spesifikasjoner](Bilder/specs.png)
 <br><br>
 ## Brukertesting
 
