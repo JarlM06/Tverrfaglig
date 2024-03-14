@@ -4,7 +4,7 @@ var BOSSES;
 // En ajax som snakker med getData.php
 // Nesten all koden er skrevet innenfor her
 $.ajax({
-    url: 'getData.php',
+    url: '../Backend/getData.php',
     type: 'GET',
     dataType: 'json',
     success: function(data) {

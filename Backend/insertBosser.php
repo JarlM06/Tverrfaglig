@@ -90,6 +90,6 @@ foreach ($bss_php as $boss) {
 $conn->close();
 
 // Returner til hovedsiden
-header("Location: index.html");
+header("Location: ../Frontend/index.html");
 exit;
 ?>
