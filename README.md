@@ -129,6 +129,10 @@ Hvilke spesifikasjoner du burde ha på serveren din for å kjøre programmet.
 * Lagde en mer utfyllende brukermanual, som bl.a. inneholder å legge til bosser og hvordan man navigerer.
 * Gjorde design/stilen mer gjengående mellom sidene (dette kan fortsatt forbedres mer).
 
+## Sikkerhet
+* Programmet er mest sannsynlig sårbar mot 'SQL Injection'
+* 
+
 ## Kilder
 PHP, CSS og MySQL - https://www.w3schools.com/
 
